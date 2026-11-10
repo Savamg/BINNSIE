@@ -1,44 +1,42 @@
 # Aplicación BINNSIE
 
-La aplicación BINNSIE es un componente digital del proyecto BINNSIE, diseñado para complementar la estación inteligente de reciclaje, fomentar la conciencia ambiental y facilitar la interacción de los usuarios con el sistema.
+La aplicación BINNSIE es el componente digital del proyecto BINNSIE, diseñado para complementar la estación inteligente de reciclaje mediante herramientas de interacción, información, seguimiento y participación comunitaria.
 
-Actualmente, la aplicación es un prototipo experimental desarrollado utilizando **Lovable** y **Supabase**.
+Actualmente, es un prototipo experimental desarrollado con **Lovable**, utilizando **React, TypeScript, Vite y Supabase**.
 
 ## Objetivo
 
-La aplicación busca ofrecer un espacio digital donde los usuarios puedan interactuar con el sistema de reciclaje, consultar información sobre los puntos de recolección y participar en actividades relacionadas con el reciclaje.
+Ofrecer una plataforma digital que facilite la participación de los usuarios en actividades de reciclaje, proporcione información sobre las estaciones y explore mecanismos de gamificación para fomentar hábitos ambientales.
 
-Además, explora el uso de la gamificación como herramienta para incentivar hábitos de reciclaje y participación ambiental.
+## Estructura funcional
 
-## Funcionalidades del prototipo
+El código de la aplicación contempla diferentes módulos:
 
-El prototipo contempla las siguientes funcionalidades:
+- **Inicio y navegación:** páginas de entrada y navegación general.
+- **Autenticación y perfiles:** registro, inicio de sesión, recuperación de contraseñas y perfiles de usuario.
+- **Reciclaje y códigos QR:** páginas destinadas al escaneo de códigos y a las interacciones de reciclaje.
+- **Mapas y estaciones:** visualización de estaciones y gestión de información relacionada con los contenedores.
+- **Comunidad y reportes:** herramientas para compartir información y reportar problemas.
+- **Educación ambiental:** contenido informativo y recomendaciones sobre reciclaje.
+- **Gamificación:** perfiles, puntos, logros y tablas de clasificación.
+- **Administración y gestión:** paneles y herramientas destinados a diferentes roles de usuario.
 
-- **Mapa de estaciones de reciclaje:** visualización de las ubicaciones de las estaciones BINNSIE.
-- **Estado de los contenedores:** consulta del estado de cada compartimento según el material.
-- **Gestión de recolecciones:** posibilidad de marcar un contenedor como recolectado y visualizar la fecha de su última recolección.
-- **Reportes comunitarios:** opción de reportar problemas como contenedores llenos, suciedad, presencia de insectos o daños.
-- **Información sobre reciclaje:** sección educativa con información sobre BINNSIE y orientación para la correcta separación de residuos.
-- **Gamificación:** sistema de puntos diseñado para incentivar la participación de los usuarios.
+## Componentes técnicos
 
-## Sistema de códigos QR y puntos
+La aplicación utiliza una arquitectura organizada en componentes reutilizables, páginas, contextos, hooks y módulos de integración.
 
-BINNSIE contempla un sistema de interacción mediante códigos QR colocados físicamente en las estaciones de reciclaje.
-
-El funcionamiento previsto es:
-
-1. El usuario escanea el código QR de la estación utilizando su dispositivo.
-2. La aplicación registra un artículo reciclado.
-3. El usuario recibe **5 puntos** por la interacción.
-
-Este sistema busca facilitar la participación y promover hábitos de reciclaje mediante una experiencia sencilla.
+Entre sus componentes se encuentran herramientas de navegación, protección de rutas, selección de idioma, códigos QR y visualización de logros.
 
 ## Tecnologías utilizadas
 
 | Tecnología | Función |
 |---|---|
-| Lovable | Desarrollo de la aplicación y su interfaz. |
-| Supabase | Servicios de backend y gestión de datos. |
+| Lovable | Desarrollo asistido de la aplicación. |
+| React | Construcción de la interfaz. |
+| TypeScript | Desarrollo con tipado estático. |
+| Vite | Herramienta de desarrollo y compilación. |
+| Supabase | Backend, autenticación y gestión de datos. |
+| Tailwind CSS | Estilización de la interfaz. |
 
 ## Relación con la estación física
 
@@ -46,15 +44,15 @@ La aplicación y la estación física BINNSIE son componentes complementarios de
 
 La estación física se enfoca en identificar y separar materiales reciclables mediante visión por computadora y mecanismos automatizados.
 
-La aplicación se enfoca en la interacción con los usuarios, la información sobre reciclaje, la participación y la gamificación.
+La aplicación se enfoca en la interacción con los usuarios, la información sobre reciclaje, la participación comunitaria y la gamificación.
 
-**Importante:** Actualmente, el prototipo de la aplicación funciona de manera independiente de la estación física. La integración directa entre la aplicación y el hardware es una posibilidad para futuras etapas de desarrollo.
+**Importante:** El prototipo actual de la aplicación funciona independientemente del hardware de la estación. La integración directa entre ambos componentes constituye una posibilidad para futuras etapas de desarrollo.
 
-## Estado actual del desarrollo
+## Estado del desarrollo
 
-La aplicación se encuentra en una etapa experimental de prototipado. Sus funcionalidades y procesos pueden modificarse a medida que avance el desarrollo de BINNSIE.
+La aplicación se encuentra en una etapa experimental de prototipado. Su arquitectura y funcionalidades pueden evolucionar conforme avance el proyecto.
 
-La presencia de una funcionalidad en el prototipo no significa necesariamente que haya sido probada completamente o integrada al sistema físico de reciclaje.
+La presencia de páginas o componentes en el código no implica necesariamente que todas sus funciones estén completamente implementadas, probadas o integradas.
 
 ## Desarrollo futuro
 
@@ -63,9 +61,9 @@ Entre las posibles áreas de desarrollo se encuentran:
 - Integración con la estación física BINNSIE.
 - Sincronización de información entre la aplicación y el hardware.
 - Mejoras al sistema de gamificación.
-- Incorporación de más contenido educativo y recursos sobre reciclaje.
-- Pruebas adicionales del sistema de interacción mediante códigos QR.
-- Mejoras en la interfaz y accesibilidad.
+- Ampliación del contenido educativo.
+- Pruebas y mejoras del sistema de códigos QR.
+- Mejoras en accesibilidad, seguridad y experiencia de usuario.
 
 ---
 
