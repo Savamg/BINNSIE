@@ -1,181 +1,160 @@
-# BINNSIE – Sistema inteligente de reciclaje
+# BINNSIE
+### The bin sorts, the student learns.
 
-**BINNSIE by Orbyteens**  
-**Concepto central: «El contenedor separa, el estudiante aprende.»**
+<p align="center">
+  <em>An educational smart recycling ecosystem combining engineering, artificial intelligence, and environmental education.</em>
+</p>
 
-## ¿Qué es BINNSIE?
+---
 
-BINNSIE es un proyecto estudiantil de innovación tecnológica y sostenibilidad que busca mejorar la separación de residuos y fomentar la cultura del reciclaje en las escuelas de Panamá.
+## About BINNSIE
 
-El proyecto explora la integración de inteligencia artificial, electrónica, mecanismos automatizados y herramientas digitales para identificar materiales reciclables y dirigirlos a los compartimentos correspondientes. Al mismo tiempo, busca convertir el proceso de reciclaje en una experiencia educativa y participativa para los estudiantes.
+BINNSIE is an educational smart recycling project developed to improve waste separation at the source and encourage sustainable habits in schools.
 
-## El problema que buscamos abordar
+The project addresses a challenge that goes beyond the disposal of waste: recyclable materials are often mixed, contaminated, or incorrectly classified, making their recovery more difficult.
 
-La separación incorrecta de residuos puede contaminar materiales reciclables y dificultar su aprovechamiento. En muchos entornos escolares, reciclar depende de que cada persona identifique el material y lo deposite en el recipiente adecuado. Esto puede generar errores, especialmente cuando no hay información clara, orientación o sistemas de separación accesibles.
+BINNSIE explores how technology can make recycling easier and more engaging by combining an intelligent physical recycling station, computer vision, digital tools, and student participation.
 
-BINNSIE busca explorar una alternativa en la que la tecnología apoye la separación desde el punto de depósito y facilite que los estudiantes aprendan sobre los materiales y el reciclaje.
+**BINNSIE is more than a recycling bin or an application. It is an ecosystem designed to connect waste separation with education.**
 
-## Objetivo del proyecto
+## The Problem
 
-Desarrollar y evaluar una estación inteligente de reciclaje para entornos escolares que combine identificación automatizada de materiales, separación física y recursos educativos para promover mejores prácticas de reciclaje.
+Improper waste management remains an important environmental challenge in Panama.
 
-### Objetivos específicos
+Limited source separation, contamination of recyclable materials, and difficulties in establishing consistent recycling habits all contribute to the problem.
 
-- Explorar el uso de visión artificial para identificar materiales reciclables.
-- Diseñar un mecanismo que dirija los materiales identificados a compartimentos correspondientes.
-- Investigar formas de ofrecer retroalimentación educativa inmediata a los estudiantes.
-- Explorar herramientas digitales que fomenten la participación y el seguimiento de la actividad de reciclaje.
-- Evaluar el funcionamiento del sistema y detectar oportunidades de mejora en condiciones reales.
+Recycling requires more than asking people to separate their waste. It also requires accessible systems, clear guidance, appropriate infrastructure, and reliable material management.
 
-## ¿Cómo funciona el concepto?
+BINNSIE aims to address these challenges through an educational and technology-based approach.
 
-La arquitectura conceptual de BINNSIE contempla cuatro componentes:
+## Our Approach
 
-1. **Identificación mediante cámara e inteligencia artificial.** Una cámara captura una imagen del objeto y un modelo de visión artificial intenta reconocer el material.
-2. **Separación automatizada.** A partir de la identificación, el sistema busca accionar un mecanismo que dirija el objeto al compartimento correspondiente.
-3. **Retroalimentación inmediata en la estación.** Se planea incorporar una pantalla física para mostrar al estudiante información sobre el material identificado y mensajes educativos. Esta funcionalidad todavía no está desarrollada ni integrada.
-4. **Herramienta digital complementaria.** Existe un prototipo experimental de aplicación para explorar la interacción, la gamificación y la acumulación de puntos. No debe considerarse todavía una aplicación final ni una integración completa con el hardware.
+BINNSIE combines five main areas:
 
-## Estado actual del proyecto
+### 1. Physical Engineering
 
-BINNSIE se encuentra en una etapa de prototipado y desarrollo experimental.
+An intelligent recycling station designed to receive waste and direct materials into designated compartments through a mechanical sorting system.
 
-### Prototipo físico
+The physical prototype incorporates a structural frame, collection compartments, a camera, and motorized mechanisms.
 
-El equipo construyó un prototipo físico de tamaño grande que utiliza una Raspberry Pi 5. El prototipo permite explorar la integración de la cámara, la inteligencia artificial y el mecanismo físico dentro de un mismo flujo de funcionamiento.
+### 2. Artificial Intelligence
 
-El prototipo actual presenta limitaciones que deben mejorarse, entre ellas su tamaño, la dificultad para transportarlo y la velocidad del proceso de clasificación. El diseño y el funcionamiento continúan en desarrollo.
+A computer-vision system designed to identify recyclable materials and support automatic classification.
 
-El programa que se ejecuta en la Raspberry Pi integra la cámara, el modelo de IA y el mecanismo físico. El código correspondiente se incorporará al repositorio cuando esté disponible para revisión y publicación.
-
-### Modelo de inteligencia artificial
-
-El proyecto cuenta con un modelo de detección de objetos basado en YOLOv8. Actualmente, las clases contempladas son:
+The current model works with three material classes:
 
 - Metal
 - Paper
 - Plastic
 
-El dataset fue organizado y etiquetado utilizando Roboflow, y el entrenamiento del modelo se realizó en Google Colab.
+The AI development process includes image collection, dataset preparation, model training, and performance evaluation.
 
-El modelo todavía requiere evaluación, pruebas en condiciones reales y optimización para su uso en la Raspberry Pi 5. Los resultados experimentales no deben interpretarse como una garantía de precisión en un entorno escolar.
+### 3. Digital Application
 
-### Dataset
+A web application prototype developed with Lovable and Supabase.
 
-BINNSIE utiliza un conjunto de imágenes para entrenar y evaluar el modelo de visión artificial. La organización, calidad de las anotaciones, distribución de las clases, posibles duplicados y condiciones de uso de las imágenes son aspectos que deben revisarse y documentarse.
+It explores features such as:
 
-Antes de publicar o incorporar nuevas imágenes, se deben comprobar los derechos de uso, las licencias aplicables y la ausencia de información personal o sensible.
+- User profiles and recycling activity.
+- Points and achievements.
+- Community participation and rankings.
+- Recycling location maps.
+- Reports about recycling locations.
+- Educational information.
+- Administrative and organizational tools.
 
-### Modelo 3D en Tinkercad
+The application is currently developed separately from the physical hardware prototype.
 
-El equipo elaboró un modelo 3D en Tinkercad como guía visual para orientar la construcción física del prototipo y la distribución general de sus componentes.
+### 4. Education and Engagement
 
-Este modelo fue desarrollado dentro del equipo mientras aprendíamos a utilizar la herramienta. Por lo tanto, es una representación aproximada del prototipo real: puede contener simplificaciones e imperfecciones y **no constituye un diseño CAD profesional ni un plano técnico definitivo para fabricación**.
+BINNSIE aims to make recycling an interactive learning experience.
 
-### Aplicación experimental
+Through gamification, educational content, and immediate feedback, the project encourages students to understand the importance of proper waste separation and develop more sustainable habits.
 
-Existe un prototipo de aplicación desarrollado con Lovable y Supabase para explorar conceptos de interacción, gamificación y acumulación de puntos.
+A physical feedback display is also part of the project's future development plans.
 
-Puede consultarse aquí: [https://orbyteens.lovable.app/](https://orbyteens.lovable.app/)
+### 5. Recycling Management
 
-La aplicación es experimental. No debe asumirse que está completamente integrada con el prototipo físico, la Raspberry Pi o el modelo de inteligencia artificial.
+Proper separation is only one step in the recycling process.
 
-### Pantalla de retroalimentación
+BINNSIE recognizes the importance of collection, transportation, and appropriate treatment of recovered materials. Collaboration with recycling centers and material-management partners is an important area for further development.
 
-Como parte de la evolución del proyecto, se contempla incorporar una pantalla directamente en la estación. La intención es que los estudiantes reciban retroalimentación sin depender de la aplicación, por ejemplo, información sobre el material identificado o mensajes breves que refuercen el aprendizaje.
+## How It Works
 
-Esta función es una propuesta futura y todavía no está implementada.
+The intended system workflow is:
 
-## Tecnologías y herramientas
+1. A user places a recyclable item into the station.
+2. A camera captures an image of the item.
+3. The computer-vision model analyzes and classifies the material.
+4. The classification guides the mechanical sorting mechanism.
+5. The item is directed toward its designated compartment.
+6. Digital and educational tools can support user participation and engagement.
 
-| Tecnología o herramienta | Uso dentro del proyecto |
+The complete workflow is an ongoing development objective. Not every component is currently integrated into a single operational system.
+
+## Technology
+
+The project has explored and used technologies across different areas:
+
+| Area | Technologies |
 |---|---|
-| Raspberry Pi 5 | Plataforma de computación del prototipo físico |
-| Python | Desarrollo del programa que integra los componentes del sistema |
-| YOLOv8 | Modelo de visión artificial para detección de materiales |
-| Roboflow | Organización y anotación del dataset |
-| Google Colab | Entorno utilizado para entrenar el modelo |
-| Lovable | Desarrollo del prototipo experimental de aplicación |
-| Supabase | Backend utilizado por el prototipo de aplicación |
-| Tinkercad | Modelado 3D conceptual utilizado como guía para la construcción |
+| Hardware | Raspberry Pi 5, camera, servo motors, sensors |
+| Artificial Intelligence | Python, Ultralytics, YOLO, Roboflow |
+| Model Training | Google Colab |
+| Digital Application | Lovable |
+| Backend and Database | Supabase |
+| Physical Design | Mechanical construction and prototyping |
 
-## Limitaciones y desafíos actuales
+This list describes technologies used or explored during development. It does not imply that every component is part of a finalized deployment.
 
-- Mejorar el tamaño y la facilidad de transporte del prototipo físico.
-- Aumentar la velocidad y consistencia del mecanismo de clasificación.
-- Evaluar el modelo de IA con objetos, iluminación, ángulos y condiciones variadas.
-- Optimizar la ejecución del modelo para Raspberry Pi 5 y comprobar su funcionamiento local.
-- Revisar la calidad, distribución y documentación del dataset.
-- Explorar la integración entre el prototipo físico y la aplicación, sin asumir que ya existe.
-- Diseñar y desarrollar la pantalla de retroalimentación inmediata.
-- Investigar cómo se deben almacenar, transportar y entregar correctamente los materiales separados para evitar contaminación y asegurar su aprovechamiento.
+## Development Status
 
-## Próximas líneas de trabajo
+BINNSIE is an evolving project. Its components are at different stages of development.
 
-### Inteligencia artificial y dataset
-- Auditar las imágenes y anotaciones existentes.
-- Revisar la distribución de las clases y los posibles errores de etiquetado.
-- Evaluar el modelo con datos de prueba representativos.
-- Investigar alternativas de optimización para Raspberry Pi 5.
+| Component | Current status |
+|---|---|
+| Physical recycling station | Prototype built and tested |
+| Mechanical sorting | Implemented in the prototype; undergoing refinement |
+| Artificial intelligence | Trained model undergoing improvement |
+| Digital application | Experimental web application prototype |
+| Educational experience | Under development |
+| Physical feedback display | Future development |
+| Recycling partnerships | Further development and validation needed |
 
-### Hardware y mecanismo
-- Reducir el tamaño y mejorar la transportabilidad del prototipo.
-- Revisar la velocidad, precisión y confiabilidad del mecanismo.
-- Evaluar la disposición de los compartimentos y el mantenimiento de la estación.
+Further testing in real school environments is necessary to evaluate the system's reliability, usability, and educational impact.
 
-### Interacción y aprendizaje
-- Investigar e implementar una pantalla física para ofrecer retroalimentación inmediata.
-- Explorar mensajes educativos claros y adecuados para estudiantes.
-- Evaluar cómo la interacción puede ayudar a comprender la separación correcta de materiales.
+## Project Vision
 
-### Aplicación
-- Continuar probando los conceptos de puntos y participación.
-- Revisar la experiencia de usuario y la estructura de datos.
-- Investigar posibles formas de conexión futura con el sistema físico.
+Our vision is to develop a replicable educational recycling system that helps schools improve waste separation while encouraging students to participate actively in environmental solutions.
 
-### Validación
-- Realizar pruebas controladas y, cuando sea posible, pruebas en entornos escolares.
-- Documentar errores, limitaciones y oportunidades de mejora.
-- Recoger observaciones de estudiantes, docentes y personas con experiencia en reciclaje y gestión de residuos.
+We believe that technology can support better recycling practices when it is combined with education, accessible infrastructure, and responsible material management.
 
-## ¿Cómo colaborar?
+## Collaboration
 
-Las contribuciones son bienvenidas. No es necesario ser programador ni tener experiencia técnica para aportar al proyecto.
+We welcome constructive feedback, technical suggestions, and contributions that can help improve BINNSIE.
 
-Se puede colaborar en las siguientes áreas:
+Areas of interest include:
 
-- **Inteligencia artificial y tecnología:** sugerencias sobre visión artificial, Python, YOLOv8, Raspberry Pi y optimización.
-- **Dataset:** revisión de imágenes, anotaciones, categorías, calidad y organización de los datos.
-- **Reciclaje y gestión de residuos:** comentarios y conocimientos sobre identificación y clasificación de materiales, contaminación cruzada, separación, almacenamiento, transporte, recolección y procesos de reciclaje.
-- **Hardware y diseño:** observaciones sobre mecanismos, materiales, distribución de componentes, mantenimiento y facilidad de uso.
-- **Educación y experiencia escolar:** ideas para explicar el reciclaje, mejorar la interacción con estudiantes y diseñar mensajes educativos.
-- **Documentación y pruebas:** revisión de instrucciones, detección de errores y sugerencias para mejorar el proyecto.
+- Mechanical and hardware engineering.
+- Artificial intelligence and computer vision.
+- Embedded systems and programming.
+- Educational technology and user experience.
+- Recycling practices and material management.
+- Testing and technical documentation.
 
-Si tienes una observación o conocimiento que pueda ayudar, puedes abrir un *Issue* en el repositorio y describir tu propuesta. Las contribuciones serán revisadas por el equipo antes de incorporarse al proyecto.
+Please open an issue to suggest an improvement, report a problem, or discuss a potential contribution.
 
-Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para conocer las pautas de colaboración.
+## Repository Scope
 
-## Equipo
+This public repository presents BINNSIE's concept, development, documentation, and selected project materials.
 
-Proyecto desarrollado por:
+Not all internal implementation files, software components, datasets, or technical configurations are included.
 
-- Sabrina Matos
-- Rafic Saab
-- Orbyteens
-
-**BINNSIE by Orbyteens**
-
-## Propiedad intelectual y uso del contenido
-
-Este repositorio tiene como propósito documentar el desarrollo de BINNSIE, compartir información sobre el proyecto y facilitar la colaboración en aspectos seleccionados de su desarrollo. La licencia del repositorio y las condiciones de uso de sus distintos componentes están pendientes de definición. La publicación de este repositorio no debe interpretarse como una autorización general para comercializar, reproducir o reutilizar todos los elementos del proyecto. Antes de publicar código, imágenes, diseños o documentación, se revisarán los derechos de autor, las licencias de terceros y la información confidencial correspondiente.
-
-## Estado del proyecto
-
-**En desarrollo experimental y etapa de prototipado.**
-
-BINNSIE continúa evolucionando mediante pruebas, aprendizaje y colaboración. La documentación se actualizará a medida que se validen nuevas funcionalidades y avances.
+Please review the repository documentation before proposing contributions.
 
 ---
 
-**BINNSIE by Orbyteens**  
-*Tecnología, educación y sostenibilidad.*
+<p align="center">
+  <strong>BINNSIE</strong><br>
+  <em>The bin sorts, the student learns.</em>
+</p>
