@@ -119,7 +119,31 @@ Issues are welcome even if you do not have programming experience.
 
 ### Option 2: Submit a Pull Request
 
-If you want to contribute changes to files that are open for community contributions:
+Pull Requests allow contributors to propose changes to the repository.
+
+However, not every area of BINNSIE is open to direct modifications.
+
+**Open for direct contributions:**
+
+- Project documentation.
+- Educational materials.
+- Spelling, grammar, and documentation corrections.
+
+**Require prior discussion and approval:**
+
+- Application source code.
+- Artificial intelligence models and related files.
+- Hardware designs and technical implementations.
+- Other sensitive or internal project components.
+
+If you want to contribute to an area requiring prior approval:
+
+1. Open an Issue describing your proposal.
+2. Explain what you want to change and why.
+3. Wait for feedback from the project maintainers.
+4. Proceed only after receiving authorization.
+
+For approved contributions:
 
 1. Fork the repository.
 2. Create a separate branch for your changes.
@@ -127,8 +151,6 @@ If you want to contribute changes to files that are open for community contribut
 4. Review your changes before submitting them.
 5. Provide a clear description of what you changed and why.
 6. Submit a Pull Request for review.
-
-Please discuss substantial changes through an Issue before starting work. This helps ensure that proposed contributions align with the project's direction.
 
 Submitting a Pull Request does not guarantee that the proposed changes will be accepted.
 
@@ -147,8 +169,6 @@ To help keep the project organized and safe:
 - Do not publish private implementation files, datasets, or technical configurations.
 - Do not attempt to access or modify external services, accounts, or infrastructure connected to the project.
 
-Only files and areas explicitly identified as open to community contributions should be modified through Pull Requests.
-
 ## Project Status
 
 BINNSIE is an evolving experimental project.
@@ -165,7 +185,7 @@ Do not submit confidential, proprietary, or restricted information belonging to 
 
 The licensing and reuse conditions for BINNSIE's different components have not yet been fully defined. Please do not assume that the public availability of this repository grants permission to reproduce, distribute, or commercially use every part of the project.
 
-If you have questions about the conditions under which a contribution may be incorporated, please discuss them with the project maintainers before submitting it.
+If you have questions about the conditions under which a contribution may be incorporated, please discuss them with the project maintainers before submitting them.
 
 ## Questions and Contact
 
