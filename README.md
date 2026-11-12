@@ -64,7 +64,7 @@ The AI development process includes image collection, dataset preparation, model
 
 ### 3. Digital Application
 <p align="center">
-   <img src="assets/binnsie-app-dashboard.png" width="60%" alt="App">
+   <img src="assets/orbyteens-landingPage.png" width="60%" alt="BINNSIE application landing page">
 </p>
 
 A web application prototype developed with Lovable, React, TypeScript, Vite, Tailwind CSS, and Supabase.
