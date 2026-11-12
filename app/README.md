@@ -10,7 +10,7 @@ Ofrecer una plataforma digital que facilite la participación de los usuarios en
 
 ## Estructura funcional
 
-El código de la aplicación contempla diferentes módulos:
+La aplicación contempla diferentes módulos:
 
 - **Inicio y navegación:** páginas de entrada y navegación general.
 - **Autenticación y perfiles:** registro, inicio de sesión, recuperación de contraseñas y perfiles de usuario.
@@ -23,7 +23,7 @@ El código de la aplicación contempla diferentes módulos:
 
 ## Componentes técnicos
 
-La aplicación utiliza una arquitectura organizada en componentes reutilizables, páginas, contextos, hooks y módulos de integración.
+La aplicación está organizada en torno a componentes reutilizables, páginas, contextos, hooks y módulos de integración.
 
 Entre sus componentes se encuentran herramientas de navegación, protección de rutas, selección de idioma, códigos QR y visualización de logros.
 
@@ -52,7 +52,7 @@ La aplicación se enfoca en la interacción con los usuarios, la información so
 
 La aplicación se encuentra en una etapa experimental de prototipado. Su arquitectura y funcionalidades pueden evolucionar conforme avance el proyecto.
 
-La presencia de páginas o componentes en el código no implica necesariamente que todas sus funciones estén completamente implementadas, probadas o integradas.
+La presencia de páginas o componentes en la aplicación no implica necesariamente que todas sus funciones estén completamente implementadas, probadas o integradas.
 
 ## Desarrollo futuro
 
