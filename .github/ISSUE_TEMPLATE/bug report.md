@@ -1,45 +1,45 @@
 ---
-name: Reportar un problema
-about: Informar sobre un problema reproducible en el prototipo, IA, aplicación o documentación de BINNSIE
+name: Report a problem
+about: Report a reproducible issue with the BINNSIE prototype, AI, application, or documentation
 title: "[BUG] "
 labels: bug
 assignees: ""
 ---
 
-## Resumen del problema
-Describe brevemente qué ocurre y dónde.
+## Problem summary
+Briefly describe what is happening and where.
 
-## Área afectada
-- [ ] Estación física / hardware
-- [ ] Mecanismo de clasificación
-- [ ] IA / detección de materiales
-- [ ] Pruebas en Raspberry Pi 5
-- [ ] Aplicación web
-- [ ] Documentación / enlaces / imágenes
-- [ ] Otra
+## Affected area
+- [ ] Physical station / hardware
+- [ ] Sorting mechanism
+- [ ] AI / material detection
+- [ ] Raspberry Pi 5 testing
+- [ ] Web application
+- [ ] Documentation / links / images
+- [ ] Other
 
-## Entorno de prueba
-Indica el dispositivo, navegador, versión o condiciones relevantes, si las conoces.
+## Test environment
+If known, provide the device, browser, version, or relevant conditions.
 
-Para problemas de IA, puedes indicar:
-- Condiciones de iluminación:
-- Orientación o posición del objeto:
-- Material que intentabas detectar (Metal, Paper o Plastic):
-- Resultado esperado:
+For AI-related issues, you may include:
+- Lighting conditions:
+- Object orientation or position:
+- Material you were trying to detect (Metal, Paper, or Plastic):
+- Expected result:
 
-## Pasos para reproducir
+## Steps to reproduce
 1.
 2.
 3.
 
-## Resultado esperado
-¿Qué debería ocurrir?
+## Expected result
+What should happen?
 
-## Resultado observado
-¿Qué ocurrió realmente? Indica si sucede siempre o solo algunas veces.
+## Actual result
+What happened? Indicate whether it happens consistently or only sometimes.
 
-## Evidencia
-Puedes adjuntar capturas, fotografías del prototipo o mensajes de error. Evita incluir rostros, datos personales, credenciales, claves API, archivos privados, datasets completos o pesos del modelo.
+## Evidence
+You may attach screenshots, photos of the prototype, or error messages. Do not include faces, personal information, credentials, API keys, private files, the complete dataset, or model weights.
 
-## Información adicional
-Añade contexto, enlaces o referencias que puedan ayudar a revisar el problema.
+## Additional information
+Add any context, links, or references that may help investigate the issue.
