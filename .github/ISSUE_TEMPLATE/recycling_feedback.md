@@ -1,19 +1,20 @@
 ---
 name: Comentarios sobre reciclaje y gestión de residuos
-about: Compartir conocimientos, experiencias o recomendaciones sobre materiales reciclables y su manejo
+about: Compartir experiencias, conocimientos o recomendaciones útiles para el enfoque de reciclaje de BINNSIE
 title: "[RECYCLING] "
 labels: recycling, feedback
 assignees: ""
 ---
 
-## Tema de la contribución
+## Tema
 - [ ] Identificación y clasificación de materiales
 - [ ] Contaminación cruzada
+- [ ] Separación en escuelas
 - [ ] Almacenamiento de reciclables
-- [ ] Transporte y recolección
+- [ ] Recolección y transporte
 - [ ] Centros de acopio o gestores
-- [ ] Procesamiento y destino de los materiales
-- [ ] Reciclaje en escuelas
+- [ ] Tratamiento y destino de los materiales
+- [ ] Educación y hábitos de reciclaje
 - [ ] Otro
 
 ## Tu observación o recomendación
@@ -27,13 +28,15 @@ Describe tu experiencia, conocimiento, pregunta o sugerencia.
 - [ ] Orgánicos
 - [ ] Otros / no aplica
 
-## Contexto o ejemplo
-¿En qué situación ocurre? Puedes mencionar prácticas habituales, dificultades o ejemplos.
+Nota: el modelo de IA documentado actualmente trabaja con Metal, Paper y Plastic. Los demás materiales pueden ser relevantes para el contexto general de reciclaje, pero no son clases actuales del modelo.
+
+## Contexto
+¿En qué lugar o situación ocurre? Evita compartir direcciones privadas o datos personales.
 
 ## Fuentes o referencias
-Si tienes enlaces, documentos o referencias que respalden tu aporte, compártelos aquí.
+Comparte enlaces, documentos o fuentes que respalden tu aporte, si están disponibles.
 
 ## ¿Cómo podría ayudar a BINNSIE?
-Explica cómo esta información podría mejorar la separación, el almacenamiento, la recolección o la educación ambiental.
+Explica cómo esta información podría mejorar la separación, el almacenamiento, la recolección, el tratamiento o la educación ambiental.
 
 No necesitas conocimientos de programación para contribuir. ¡Tus observaciones son bienvenidas!
