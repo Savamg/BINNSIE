@@ -23,9 +23,20 @@ The application includes several functional areas:
   <img src="assets/orbyteens-scan.png">
 </p>
 - **Maps and stations:** station visualization and information related to recycling containers.
+  <p align="center">
+  <img src="assets/orbyteens-map.png">
+</p>
+
 - **Community and reports:** tools for sharing information and reporting issues.
-- **Environmental education:** educational content and recycling guidance.
+    <p align="center">
+  <img src="assets/orbyteens-reportIssues.png">
+</p>
+- **Environmental education:** educational content and recycling guidance. (Future implementation)
 - **Gamification:** user profiles, points, achievements, and leaderboards.
+  <p align="center">
+  <img src="assets/orbyteens-leaderboard.png">
+   <img src="assets/orbyteens-community.png">
+</p>
 - **Administration and management:** dashboards and tools for different user roles.
 
 ## Technical Components
