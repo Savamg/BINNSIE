@@ -13,8 +13,15 @@ The application aims to provide a platform that encourages users to participate 
 The application includes several functional areas:
 
 - **Home and navigation:** landing pages and general navigation.
+<p align="center">
+  <img src="assets/orbyteens-landingPage.png">
+</p>
+
 - **Authentication and profiles:** registration, sign-in, password recovery, and user profiles.
 - **Recycling and QR codes:** pages designed for QR code scanning and recycling-related interactions.
+  <p align="center">
+  <img src="assets/orbyteens-scan.png">
+</p>
 - **Maps and stations:** station visualization and information related to recycling containers.
 - **Community and reports:** tools for sharing information and reporting issues.
 - **Environmental education:** educational content and recycling guidance.
