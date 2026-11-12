@@ -1,43 +1,43 @@
 ---
-name: Sugerencia para el dataset
-about: Compartir observaciones sobre calidad de imágenes, anotaciones o diversidad de datos sin publicar recursos privados
+name: Dataset improvement suggestion
+about: Share observations about image quality, annotations, or data diversity without publishing private resources
 title: "[DATASET] "
 labels: dataset, ai
 assignees: ""
 ---
 
-## Tipo de observación
-- [ ] Posible error de anotación
-- [ ] Imagen duplicada o poco representativa
-- [ ] Calidad de imagen insuficiente
-- [ ] Variación visual que falta representar
-- [ ] Clase con pocos ejemplos
-- [ ] Material difícil de distinguir
-- [ ] Condiciones de iluminación u orientación
-- [ ] Recomendación sobre recopilación de imágenes
-- [ ] Otra
+## Type of observation
+- [ ] Possible annotation error
+- [ ] Duplicate or unrepresentative image
+- [ ] Insufficient image quality
+- [ ] Missing visual variation
+- [ ] Underrepresented class
+- [ ] Material that is difficult to distinguish
+- [ ] Lighting or orientation conditions
+- [ ] Recommendation for image collection
+- [ ] Other
 
-## Clase relacionada
+## Related class
 - [ ] Metal
 - [ ] Paper
 - [ ] Plastic
-- [ ] Imagen sin objeto reciclable / ejemplo negativo
-- [ ] No estoy seguro
+- [ ] Image without a recyclable object / negative example
+- [ ] Not sure
 
-## Descripción
-Explica qué observaste. Si se trata de una posible anotación incorrecta, describe el caso sin publicar archivos privados del dataset.
+## Description
+Explain what you observed. If you suspect an annotation error, describe the case without publishing private dataset files.
 
-## Condiciones o contexto
-- Iluminación:
-- Ángulo u orientación:
-- Fondo:
-- Tipo o apariencia del material:
+## Conditions or context
+- Lighting:
+- Angle or orientation:
+- Background:
+- Material type or appearance:
 
-## Mejora sugerida
-¿Qué recomendarías revisar o cambiar y por qué?
+## Suggested improvement
+What would you recommend reviewing or changing, and why?
 
-## Referencias
-Puedes compartir enlaces a recursos que tengan permisos de uso adecuados. No adjuntes el dataset completo, anotaciones privadas, pesos del modelo ni imágenes de terceros sin autorización.
+## References
+You may share links to resources that have appropriate usage permissions. Do not attach the complete dataset, private annotations, model weights, or third-party images without authorization.
 
-## Información adicional
-Incluye cualquier detalle útil para evaluar la sugerencia.
+## Additional information
+Include any details that may help evaluate the suggestion.
