@@ -1,37 +1,37 @@
 ---
-name: Proponer una mejora
-about: Sugerir una funcionalidad o mejora para alguna de las áreas de BINNSIE
+name: Suggest an improvement
+about: Suggest a feature or improvement for any area of BINNSIE
 title: "[FEATURE] "
 labels: enhancement
 assignees: ""
 ---
 
-## ¿Qué propones?
-Describe la funcionalidad, cambio o mejora que te gustaría sugerir.
+## What would you like to suggest?
+Describe the feature, change, or improvement you have in mind.
 
-## ¿Qué necesidad resolvería?
-Explica el problema u oportunidad que has identificado.
+## What need would it address?
+Explain the problem or opportunity you have identified.
 
-## Área relacionada
-- [ ] Estación física / hardware
-- [ ] Mecanismo de clasificación
-- [ ] Inteligencia artificial / visión computacional
-- [ ] Raspberry Pi 5 / procesamiento local
-- [ ] Aplicación web
-- [ ] Educación ambiental / experiencia estudiantil
-- [ ] Recolección y gestión de reciclables
-- [ ] Alianzas con escuelas o gestores de reciclaje
-- [ ] Documentación
-- [ ] Otra
+## Related area
+- [ ] Physical station / hardware
+- [ ] Sorting mechanism
+- [ ] Artificial intelligence / computer vision
+- [ ] Raspberry Pi 5 / local processing
+- [ ] Web application
+- [ ] Environmental education / student experience
+- [ ] Recycling collection and management
+- [ ] Partnerships with schools or recycling organizations
+- [ ] Documentation
+- [ ] Other
 
-## ¿Cómo podría funcionar?
-Describe tu idea. No necesitas presentar una solución técnica completa.
+## How could it work?
+Describe your idea. You do not need to provide a complete technical solution.
 
-## Beneficio esperado
-¿Cómo ayudaría a estudiantes, escuelas, al funcionamiento del sistema o a la gestión de materiales?
+## Expected benefit
+How could this help students, schools, system operation, or material management?
 
-## Estado o dependencias
-¿Depende de una integración, prueba, permiso, equipo o alianza que todavía no existe?
+## Status or dependencies
+Would it depend on an integration, test, permission, equipment, or partnership that is not yet in place?
 
-## Referencias o ejemplos
-Incluye fuentes, enlaces o ejemplos si los tienes.
+## References or examples
+Include sources, links, or examples if available.
