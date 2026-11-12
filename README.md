@@ -24,6 +24,29 @@ BINNSIE explores how technology can make recycling easier and more engaging by c
 
 **BINNSIE is more than a recycling bin or an application. It is an ecosystem designed to connect waste separation with education.**
 
+
+## Target Audience
+
+BINNSIE is designed primarily for **schools and school communities**, with a focus on **children, adolescents, and students** who can learn and build better recycling habits through everyday interaction. Teachers, school staff, and administrators are also important participants because they help make environmental learning part of the school experience.
+
+The project is being developed with school environments in mind. Its educational approach is intended to make waste separation easier to understand, more visible, and more engaging for young people.
+
+## How BINNSIE Began
+
+The idea for BINNSIE began with an everyday experience. While having a meal at a restaurant, our team wanted to dispose of recyclable waste in the containers provided for that purpose. However, when we looked inside the recycling-labeled containers, we found different types of waste mixed together, just as they might be in an ordinary trash bin.
+
+That moment raised a question: **what is the point of labeling recycling containers if the materials end up mixed anyway?**
+
+We began investigating the situation further and visiting other recycling containers around Panama. We also researched waste management, recycling practices, and the barriers that prevent recyclable materials from being properly separated and recovered. These investigations suggested that what we had seen was not an isolated incident, but part of a recurring problem: recycling infrastructure alone does not guarantee correct separation. Awareness, guidance, consistent practices, and appropriate handling after collection matter too.
+
+The research compiled for BINNSIE's supporting documents describes the broader context in Panama, including an estimated **4,800 tons of solid waste generated per day**, approximately **380,000 tons of plastic waste per year**, and a formal recycling rate reported as **below 10%**. These figures are included as background indicators in the project's supporting materials; readers can consult those documents for their context and references.
+
+We also conducted a community survey with **46 respondents**. In that survey, **97.8%** considered recycling important, **19.6%** reported recycling consistently, and **80.4%** said they would recycle more if the process were automatic. These responses are an initial local validation exercise, not a nationally representative survey. A separate review of institutions in the Panamá Pacífico area found that 20% had a manual recycling system, while 80% did not report having one.
+
+The STEAM Fair work contributed to the project's development record by documenting the evolution of the physical prototype, design decisions, construction process, challenges, tests, and improvements. Together with the research and field observations, this process helped shape BINNSIE's central idea: **the system should help sort the materials while students learn why proper recycling matters.**
+
+For further context, see the [project overview and supporting documents](docs/README.md).
+
 ## The Problem
 
 Improper waste management remains an important environmental challenge in Panama.
