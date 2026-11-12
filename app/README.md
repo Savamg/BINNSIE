@@ -10,33 +10,41 @@ The application aims to provide a platform that encourages users to participate 
 
 ## Functional Structure
 
-The application includes several functional areas:
-
 - **Home and navigation:** landing pages and general navigation.
-<p align="center">
-  <img src="assets/orbyteens-landingPage.png">
-</p>
+
+  <p align="center">
+    <img src="../assets/orbyteens-landingPage.png" width="80%" alt="BINNSIE application landing page">
+  </p>
 
 - **Authentication and profiles:** registration, sign-in, password recovery, and user profiles.
+
 - **Recycling and QR codes:** pages designed for QR code scanning and recycling-related interactions.
+
   <p align="center">
-  <img src="assets/orbyteens-scan.png">
-</p>
+    <img src="../assets/orbyteens-scan.png" width="80%" alt="BINNSIE QR scanning screen">
+  </p>
+
 - **Maps and stations:** station visualization and information related to recycling containers.
+
   <p align="center">
-  <img src="assets/orbyteens-map.png">
-</p>
+    <img src="../assets/orbyteens-map.png" width="80%" alt="BINNSIE recycling station map">
+  </p>
 
 - **Community and reports:** tools for sharing information and reporting issues.
-    <p align="center">
-  <img src="assets/orbyteens-reportIssues.png">
-</p>
-- **Environmental education:** educational content and recycling guidance. (Future implementation)
-- **Gamification:** user profiles, points, achievements, and leaderboards.
+
   <p align="center">
-  <img src="assets/orbyteens-leaderboard.png">
-   <img src="assets/orbyteens-community.png">
-</p>
+    <img src="../assets/orbyteens-reportIssues.png" width="80%" alt="BINNSIE community issue reporting screen">
+  </p>
+
+- **Environmental education:** educational content and recycling guidance. (Future implementation)
+
+- **Gamification:** user profiles, points, achievements, and leaderboards.
+
+  <p align="center">
+    <img src="../assets/orbyteens-leaderboard.png" width="45%" alt="BINNSIE leaderboard">
+    <img src="../assets/orbyteens-community.png" width="45%" alt="BINNSIE community screen">
+  </p>
+
 - **Administration and management:** dashboards and tools for different user roles.
 
 ## Technical Components
