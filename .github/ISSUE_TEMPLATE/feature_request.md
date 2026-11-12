@@ -1,30 +1,37 @@
 ---
-name: Proponer una mejora o funcionalidad
-about: Sugerir una nueva característica o una mejora para BINNSIE
+name: Proponer una mejora
+about: Sugerir una funcionalidad o mejora para alguna de las áreas de BINNSIE
 title: "[FEATURE] "
 labels: enhancement
 assignees: ""
 ---
 
 ## ¿Qué propones?
-Describe la funcionalidad o mejora que te gustaría incorporar.
+Describe la funcionalidad, cambio o mejora que te gustaría sugerir.
 
 ## ¿Qué necesidad resolvería?
-Explica qué problema o necesidad aborda la propuesta.
-
-## ¿Cómo podría funcionar?
-Describe tu idea. No es necesario presentar una solución técnica completa.
+Explica el problema u oportunidad que has identificado.
 
 ## Área relacionada
-- [ ] Hardware / prototipo físico
-- [ ] Inteligencia artificial
-- [ ] Aplicación
-- [ ] Pantalla de retroalimentación
-- [ ] Educación ambiental
+- [ ] Estación física / hardware
+- [ ] Mecanismo de clasificación
+- [ ] Inteligencia artificial / visión computacional
+- [ ] Raspberry Pi 5 / procesamiento local
+- [ ] Aplicación web
+- [ ] Educación ambiental / experiencia estudiantil
+- [ ] Recolección y gestión de reciclables
+- [ ] Alianzas con escuelas o gestores de reciclaje
+- [ ] Documentación
 - [ ] Otra
 
+## ¿Cómo podría funcionar?
+Describe tu idea. No necesitas presentar una solución técnica completa.
+
 ## Beneficio esperado
-¿Cómo ayudaría esta propuesta a BINNSIE o a sus usuarios?
+¿Cómo ayudaría a estudiantes, escuelas, al funcionamiento del sistema o a la gestión de materiales?
+
+## Estado o dependencias
+¿Depende de una integración, prueba, permiso, equipo o alianza que todavía no existe?
 
 ## Referencias o ejemplos
-Incluye enlaces, imágenes o ejemplos si los tienes.
+Incluye fuentes, enlaces o ejemplos si los tienes.
