@@ -38,7 +38,7 @@ BINNSIE aims to address these challenges through an educational and technology-b
 
 BINNSIE combines five main areas:
 
-### 1. Physical Engineering 
+### 1. Physical Engineering
 
 <p align="center">
    <img src="assets/binnsie-internals.jpeg" width="20%" alt="Internal electronics and hardware components of BINNSIE">
@@ -89,7 +89,7 @@ BINNSIE aims to make recycling an interactive learning experience.
 
 Through gamification, educational content, and immediate feedback, the project encourages students to understand the importance of proper waste separation and develop more sustainable habits.
 
-A physical feedback display is also part of the project's future development plans.
+A physical feedback display is also part of the project’s future development plans.
 
 ### 5. Recycling Management
 
@@ -139,7 +139,32 @@ BINNSIE is an evolving project. Its components are at different stages of develo
 | Physical feedback display | Future development |
 | Recycling partnerships | Further development and validation needed |
 
-Further testing in real school environments is necessary to evaluate the system's reliability, usability, and educational impact.
+Further testing in real school environments is necessary to evaluate the system’s reliability, usability, and educational impact.
+
+## Getting Started: Explore BINNSIE
+
+You can explore the project without installing any software:
+
+1. **Start here:** Read this README to understand BINNSIE’s purpose, approach, and current development status.
+2. **Explore the documentation:** Visit the [documentation index](docs/README.md) for the project overview and supporting documents.
+3. **See the digital prototype:** Open the [BINNSIE application](https://orbyteens.lovable.app/) to explore its current interface and experimental features. The app is a separate prototype and is not yet integrated with the physical station.
+4. **Look at the prototype:** Review the photos in the assets folder to see selected views of the physical station and its components.
+5. **Learn how to contribute:** Read [CONTRIBUTING.md](CONTRIBUTING.md) before suggesting changes or opening a pull request.
+
+The public repository intentionally does not include every internal file, dataset, model weight, credential, or technical configuration. You do not need access to those materials to understand the project or provide feedback.
+
+## Next Development Steps
+
+The following are planned priorities. They are development goals, not claims that the work has already been completed:
+
+- **Improve the AI model:** Continue evaluating and refining material detection for Metal, Paper, and Plastic.
+- **Refine the mechanical system:** Improve the sorting mechanism’s reliability and consistency.
+- **Validate in a school environment:** Plan supervised testing to assess usability, classification performance, and the quality of material separation.
+- **Connect the ecosystem:** Work toward integrating the physical station, AI model, and digital application.
+- **Strengthen the educational experience:** Develop clearer learning activities and engagement features for students.
+- **Build recycling partnerships:** Identify and validate collection and recycling partners so recovered materials can be handled appropriately.
+
+Progress will depend on prototype testing, feedback from potential users, technical improvements, and collaboration with schools and recycling partners.
 
 ## Project Vision
 
@@ -162,9 +187,13 @@ Areas of interest include:
 
 Please open an issue to suggest an improvement, report a problem, or discuss a potential contribution.
 
+## Use of AI Tools
+
+ChatGPT was used as a support tool during the preparation and editing of project documentation, including help with organizing information, improving clarity, and reviewing written explanations. The project decisions, descriptions, and development status were reviewed by the project creator. AI assistance does not replace the project’s own research, design, testing, or validation.
+
 ## Repository Scope
 
-This public repository presents BINNSIE's concept, development, documentation, and selected project materials.
+This public repository presents BINNSIE’s concept, development, documentation, and selected project materials.
 
 Not all internal implementation files, software components, datasets, or technical configurations are included.
 
