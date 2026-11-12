@@ -20,7 +20,7 @@ The ML system is being developed to:
 - Classify detected objects into material categories.
 - Support the automated sorting mechanism of the BINNSIE station.
 - Reduce incorrect material disposal and cross-contamination.
-- Enable future offline inference on a Raspberry Pi 5.
+- Support local inference on a Raspberry Pi 5.
 - Support an educational recycling experience in schools.
 
 ## Current Detection Classes
@@ -92,6 +92,14 @@ The planned workflow is:
 3. The system identifies the detected material category.
 4. The classification result supports the physical sorting mechanism.
 
+## Preliminary Raspberry Pi 5 Testing
+
+The trained model has been tested on Raspberry Pi 5, the intended edge-computing platform. These were preliminary tests rather than a controlled performance benchmark.
+
+Recognition varied with lighting conditions and object orientation or positioning. The model occasionally failed to recognize an object or confused material categories. Further testing is needed to evaluate consistency and operational reliability.
+
+The team plans to collect additional images directly with the Raspberry Pi Camera to better represent the conditions encountered by the station. This image collection and subsequent retraining have not yet been completed.
+
 ## Current Limitations
 
 The ML component is still under development.
@@ -99,10 +107,10 @@ The ML component is still under development.
 Current limitations and areas for improvement include:
 
 - Improving detection performance, particularly for Metal and Plastic.
-- Evaluating performance under different lighting conditions.
+- Improving recognition under different lighting conditions, following preliminary Raspberry Pi 5 tests.
 - Testing different object shapes, sizes, colors, and packaging conditions.
 - Reducing incorrect classifications and missed detections.
-- Evaluating inference speed and resource consumption on Raspberry Pi 5.
+- Measuring inference speed and resource consumption on Raspberry Pi 5.
 - Validating performance in the physical recycling station.
 
 Further testing is necessary before the model can be considered ready for operational use.
@@ -128,7 +136,7 @@ Planned improvements include:
 - Improving the quality and diversity of training data.
 - Increasing detection performance across all three classes.
 - Evaluating model optimization for edge devices.
-- Testing offline inference on Raspberry Pi 5.
+- Further testing local inference and detection consistency on Raspberry Pi 5.
 - Integrating the detection pipeline with the physical sorting mechanism.
 - Validating the complete system in a school environment.
 
