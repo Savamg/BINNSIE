@@ -1,62 +1,57 @@
 # BINNSIE Documentation
 
-Welcome to the BINNSIE documentation.
-
-This directory contains information about the project's concept, development, technical components, and educational approach.
-
-BINNSIE is an educational smart recycling ecosystem that combines physical engineering, artificial intelligence, digital tools, and environmental education to improve waste separation in schools.
+Welcome to the documentation section of **BINNSIE**, an educational smart recycling project focused on improving waste separation in schools through physical engineering, artificial intelligence, digital tools, and environmental education.
 
 **The bin sorts, the student learns.**
 
-## Documentation Structure
+This folder currently contains the project's overview and supporting documents. The repository also includes separate introductory documentation for the application and the project's visual assets.
 
-The documentation is organized into different areas:
+## Documentation available
 
-| Document | Description | Status |
-|---|---|---|
-| [Project Overview](Project%20overview.md) | General introduction to BINNSIE, its objectives, and its overall approach. | In development |
-| [Hardware](../hardware/README.md) | Information about the physical recycling station, electronics, and mechanical components. | In development |
-| [Artificial Intelligence](../ml/README.md) | Information about the computer vision system, material classification, and machine learning development. | In development |
-| [Application](../app/README.md) | Overview of the digital application, its features, technologies, and development status. | Available |
-| [Media and Visual Resources](../media/README.md) | Organization and context for project images and other visual materials. | In development |
+| Resource | Description |
+|---|---|
+| [Project Overview](Project%20overview.md) | Explains BINNSIE's concept, design principles, school-focused approach, and long-term vision. |
+| [Supporting Document 1](binnsie-Supporting%20doc1.pdf) | First supporting document submitted for The Earth Prize. |
+| [Supporting Document 2](Binnsie-%20Supporting%20doc2.pdf) | Second supporting document submitted for The Earth Prize. |
+| [Application Overview](../app/README.md) | Describes the experimental web application, its intended features, technologies, and current limitations. |
+| [Main Repository README](../README.md) | Project introduction, current development overview, prototype images, and repository scope. |
 
-## Main Project Areas
+## Project areas
 
-BINNSIE is developed through several interconnected areas:
+BINNSIE brings together five connected areas:
 
-### 1. Physical Engineering
+1. **Physical engineering:** a prototype recycling station with a structure, collection compartments, camera, and motorized mechanisms.
+2. **Artificial intelligence:** a computer-vision model currently developed around three material classes: Metal, Paper, and Plastic.
+3. **Digital application:** an experimental web application prototype developed with Lovable, React, TypeScript, Vite, and Supabase.
+4. **Education and engagement:** educational content and participation features intended to make recycling more understandable and engaging for students.
+5. **Recycling management:** attention to collection and appropriate downstream handling, recognizing that separation alone does not complete the recycling process.
 
-The design and construction of a smart recycling station, including its structure, electronic components, sensors, and mechanical sorting system.
+These areas are at different stages of development and are not yet fully integrated into one operational system.
 
-### 2. Artificial Intelligence
+## Repository contents and scope
 
-A computer vision system designed to recognize and classify recyclable materials, with the goal of supporting automated separation.
+The public repository currently includes:
 
-### 3. Digital Application
+- Project documentation and the two supporting PDF documents.
+- An application overview document; the application's full source code is not included here.
+- Selected visual assets used by the main README, including prototype photographs, the BINNSIE logo, mascot, and an application screenshot.
+- Contribution guidelines and GitHub issue templates.
 
-A digital platform prototype designed to support student participation, recycling activities, educational content, and project engagement.
+The `hardware/`, `ml/`, and `media/` directories are currently placeholders and do not contain substantive technical documentation or implementation files. They are not linked as active documentation sections here.
 
-### 4. Environmental Education
+The repository intentionally does not publish every internal implementation file, dataset, model checkpoint, credential, or technical configuration. Its public contents should not be interpreted as a complete build guide or as confirmation that every planned feature is operational.
 
-Educational activities and interactive experiences that help students understand waste separation and develop more responsible recycling habits.
+## Development status
 
-### 5. Recycling Management
+BINNSIE is an evolving experimental project. The physical station has been prototyped, the AI model is undergoing improvement, and the application remains an experimental prototype developed separately from the physical hardware.
 
-The project's approach to material classification, collection, handling, and the importance of appropriate downstream recycling processes.
+Descriptions of intended workflows and future features are not claims that those components are already integrated or fully validated. Further testing in school environments and collaboration with recycling partners are still important steps.
 
-## Development Status
+## Contributing
 
-BINNSIE is an evolving project. Its components are at different stages of development, testing, and refinement.
+Suggestions, corrections, and constructive feedback are welcome. Please read the [Contributing Guidelines](../CONTRIBUTING.md) before proposing changes.
 
-The documentation will be updated as the project progresses. Descriptions of planned features should not be interpreted as confirmation that those features are already implemented or fully integrated.
-
-## Contributing to the Documentation
-
-Suggestions, corrections, educational resources, and constructive feedback are welcome.
-
-Before proposing changes, please read the [Contributing Guidelines](../CONTRIBUTING.md).
-
-For questions or suggestions, you can also open an [Issue](https://github.com/Savamg/BINNSIE/issues).
+You can also report an issue or share a suggestion through the [GitHub Issues page](https://github.com/Savamg/BINNSIE/issues).
 
 ---
 
