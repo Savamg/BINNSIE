@@ -67,8 +67,9 @@ The AI development process includes image collection, dataset preparation, model
    <img src="assets/binnsie-app-dashboard.png" width="60%" alt="App">
 </p>
 
-A web application prototype developed with Lovable and Supabase.
-link: https://orbyteens.lovable.app/
+A web application prototype developed with Lovable, React, TypeScript, Vite, Tailwind CSS, and Supabase.
+
+[Open the BINNSIE application](https://orbyteens.lovable.app/)
 
 It explores features such as:
 
@@ -118,7 +119,7 @@ The project has explored and used technologies across different areas:
 | Hardware | Raspberry Pi 5, camera, servo motors, sensors |
 | Artificial Intelligence | Python, Ultralytics, YOLO, Roboflow |
 | Model Training | Google Colab |
-| Digital Application | Lovable |
+| Digital Application | Lovable, React, TypeScript, Vite, Tailwind CSS |
 | Backend and Database | Supabase |
 | Physical Design | Mechanical construction and prototyping |
 
