@@ -107,7 +107,7 @@ The following images show examples of predictions generated on validation batche
 ### Validation batch 2
 
 <p align="center">
-  <img src="images/validation/val_batch2_pred.jpeg" alt="BINNSIE validation batch 2 predictions" width="750">
+  <img src="images/validation/val_batch2_pred.jpg" alt="BINNSIE validation batch 2 predictions" width="750">
 </p>
 
 These examples provide a visual reference for how the model detects and classifies recyclable objects during validation.
