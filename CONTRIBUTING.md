@@ -2,198 +2,184 @@
 
 Thank you for your interest in contributing to BINNSIE!
 
-BINNSIE is an educational smart recycling project that combines physical engineering, artificial intelligence, digital tools, and environmental education to improve waste separation and encourage sustainable habits in schools.
-
-Our central concept is:
+BINNSIE is an educational smart recycling ecosystem focused on schools. It brings together a physical recycling station, computer vision, a digital application, environmental education, and responsible recycling management.
 
 **The bin sorts, the student learns.**
 
-We believe that meaningful contributions can come from different backgrounds and areas of knowledge. You do not need to be a programmer or an engineer to help improve BINNSIE.
+Contributions are welcome from people with different backgrounds. You do not need to be a programmer or engineer to share useful feedback, observations, or ideas.
 
-We welcome ideas, technical suggestions, observations, feedback, and constructive discussions.
+## Project at a glance
 
-## Ways to Contribute
+BINNSIE is more than an application or a recycling bin. Its main areas are:
 
-BINNSIE is more than an application. Contributions are welcome across the different areas of the project.
+- **Physical engineering:** a recycling-station prototype with a structure, collection compartments, camera, and motorized mechanisms.
+- **Artificial intelligence:** a YOLOv8s object-detection model currently trained for Metal, Paper, and Plastic.
+- **Digital application:** an experimental web application prototype developed separately from the physical station.
+- **Education and engagement:** an approach intended to help students understand recycling through interaction and learning.
+- **Recycling management:** attention to collection and appropriate handling of recovered materials.
 
-### 1. Artificial Intelligence and Computer Vision
+The AI model has undergone preliminary testing on Raspberry Pi 5. Recognition can vary with lighting and object orientation or positioning, and further testing is needed. The application is not yet integrated with the physical station. These are important distinctions when proposing or describing project improvements.
 
-We welcome suggestions and technical contributions related to material recognition and computer vision.
+## Ways to contribute
+
+### 1. Artificial intelligence and computer vision
+
+We welcome suggestions related to material detection, model evaluation, and edge-device deployment.
+
+Examples:
+- Identify possible causes of missed detections or incorrect classifications.
+- Suggest evaluation methods for object-detection models.
+- Recommend approaches suitable for Raspberry Pi 5.
+- Share relevant research or technical resources.
+- Suggest ways to evaluate lighting, camera angle, and object orientation.
+
+The current model classes are **Metal, Paper, and Plastic**. This does not mean every object in those material categories can already be detected reliably.
+
+### 2. Dataset and image quality
+
+Image diversity and consistent annotations are important to model development.
+
+You can:
+- Report possible annotation inconsistencies.
+- Suggest ways to improve image quality or dataset balance.
+- Identify challenging material appearances or visual conditions.
+- Recommend image collection and review practices.
+- Share references to image resources that may be legally used.
+
+Do not upload the complete dataset, private annotations, model weights, training checkpoints, or restricted training resources. Do not share images unless you own the rights or have permission to share them. For suggestions, describe the issue or provide a permitted reference rather than publishing private dataset contents.
+
+The team plans to collect additional images using the Raspberry Pi Camera. That collection and the subsequent retraining are future work, not completed milestones.
+
+### 3. Hardware, electronics, and mechanical engineering
 
 Possible contributions include:
-
-- Suggesting ways to improve material detection.
-- Identifying possible causes of classification errors.
-- Recommending model evaluation techniques.
-- Discussing approaches suitable for Raspberry Pi 5.
-- Suggesting improvements to image-processing workflows.
-- Sharing relevant research and technical resources.
-
-### 2. Dataset and Image Processing
-
-Image quality and dataset diversity are important for developing reliable detection models.
-
-You can contribute by:
-
-- Identifying possible labeling inconsistencies.
-- Suggesting improvements to image quality.
-- Recommending ways to reduce duplicate or unrepresentative images.
-- Discussing material variations and challenging visual conditions.
-- Sharing images when you own the rights to them or have permission to share them.
-
-Please do not upload private datasets, restricted material, or images without appropriate usage rights.
-
-### 3. Hardware, Electronics, and Mechanical Engineering
-
-We welcome ideas that can help improve the physical recycling station.
-
-Possible contributions include:
-
-- Suggestions for mechanical sorting mechanisms.
+- Suggestions for sorting mechanisms and mechanical reliability.
 - Recommendations for motors, sensors, and electronic components.
-- Ideas for improving the physical structure.
-- Suggestions related to Raspberry Pi and embedded systems.
-- Recommendations for durability, maintenance, and accessibility.
-- Feedback on the prototype's mechanical design.
+- Ideas for structural improvements, maintenance, and accessibility.
+- Feedback on Raspberry Pi and embedded-system approaches.
+- Safety and durability considerations for school environments.
 
-### 4. Recycling Practices and Material Management
+Do not publish private technical configurations, access details, or sensitive implementation files.
 
-Knowledge about recycling and waste management is especially valuable to BINNSIE.
+### 4. Recycling practices and material management
 
-You do not need technical or programming experience to contribute to this area.
+Practical knowledge about recycling is valuable, even without technical experience.
 
 We welcome:
-
-- Recommendations for identifying and classifying recyclable materials.
-- Observations about materials that are commonly confused.
+- Information about recyclable material identification.
 - Suggestions for reducing cross-contamination.
-- Information about proper material storage and transportation.
-- Recommendations about collection centers and recycling facilities.
-- Insights into what happens to materials after collection.
-- Suggestions for improving recycling practices in schools and communities.
+- Recommendations for storage and handling.
+- Information about collection centers, recycling facilities, and material managers.
+- Evidence-based information about what happens to materials after collection.
+- Suggestions for school recycling practices.
 
-Practical experience and well-supported recommendations can help improve the project's approach to material separation and management.
+Please include sources when making technical, environmental, or regulatory claims.
 
-### 5. Application and User Experience
+### 5. Application and user experience
 
-The BINNSIE application is an experimental digital component of the wider project.
+The application is an experimental prototype and currently operates separately from the physical station.
 
-Possible contributions include:
+You can suggest:
+- Improvements to navigation, accessibility, and usability.
+- Educational features and recycling guidance.
+- Ideas for points, achievements, and community participation.
+- Improvements to QR-related interactions.
+- Feedback on maps, station information, and reporting features.
 
-- Suggestions for improving the user experience.
-- Feedback on navigation and accessibility.
-- Ideas for educational features.
-- Suggestions for improving the points and achievements system.
-- Feedback on community participation features.
-- Ideas for the future physical feedback display.
+A feature visible in the prototype should not automatically be assumed to be fully implemented, tested, or connected to the hardware.
 
-### 6. Environmental Education and Documentation
-
-Education is a central part of BINNSIE.
+### 6. Education, communication, and documentation
 
 You can contribute by:
+- Suggesting activities for students and schools.
+- Recommending reliable educational resources.
+- Reviewing documentation for clarity and consistency.
+- Identifying outdated or unsupported claims.
+- Suggesting ways to explain recycling concepts to children and adolescents.
 
-- Suggesting educational activities for schools.
-- Recommending reliable environmental resources.
-- Reviewing project documentation.
-- Identifying unclear or incomplete explanations.
-- Suggesting ways to communicate recycling concepts to students.
-- Helping improve the project's technical and educational documentation.
+### 7. Recycling partnerships and implementation
 
-## How to Contribute
+Suggestions about school pilots, collection logistics, recycling partners, and responsible downstream handling are welcome. Please distinguish confirmed arrangements from potential partners or recommendations.
 
-There are two main ways to participate.
+## How to contribute
 
 ### Option 1: Open an Issue
 
-Use an Issue to share an idea, report a problem, ask a question, or suggest an improvement.
+Use an Issue to report a problem, propose an improvement, suggest a dataset review, or share recycling knowledge.
 
 1. Visit the [Issues section](https://github.com/Savamg/BINNSIE/issues).
 2. Check whether a similar Issue already exists.
-3. Select **New Issue**.
-4. Explain your suggestion or observation clearly.
-5. Include relevant references, examples, or images when appropriate.
+3. Select the most relevant template.
+4. Describe the observation or proposal clearly.
+5. Include relevant sources or evidence when appropriate.
 6. Submit the Issue for review.
 
-Issues are welcome even if you do not have programming experience.
+You do not need programming experience to open an Issue. An Issue is a discussion and does not mean that a proposed change has been approved or will be implemented.
 
 ### Option 2: Submit a Pull Request
 
-Pull Requests allow contributors to propose changes to the repository.
+Pull Requests propose specific changes to files in this repository.
 
-However, not every area of BINNSIE is open to direct modifications.
+**Generally suitable for direct Pull Requests:**
+- Documentation corrections and clarifications.
+- Spelling, grammar, and formatting improvements.
+- Improvements to educational text, provided claims are supported by reliable sources.
+- Corrections to broken links or image references.
 
-**Open for direct contributions:**
+**Discuss first through an Issue:**
+- Changes to the application's implementation.
+- Changes to AI model architecture, training, or dataset structure.
+- Hardware designs and mechanical or electronic implementations.
+- Changes involving external services, integrations, or operational workflows.
+- Any change that could expose private or sensitive project resources.
 
-- Project documentation.
-- Educational materials.
-- Spelling, grammar, and documentation corrections.
+Please wait for maintainer feedback before starting work in areas that require prior discussion.
 
-**Require prior discussion and approval:**
-
-- Application source code.
-- Artificial intelligence models and related files.
-- Hardware designs and technical implementations.
-- Other sensitive or internal project components.
-
-If you want to contribute to an area requiring prior approval:
-
-1. Open an Issue describing your proposal.
-2. Explain what you want to change and why.
-3. Wait for feedback from the project maintainers.
-4. Proceed only after receiving authorization.
-
-For approved contributions:
-
+For an approved contribution:
 1. Fork the repository.
 2. Create a separate branch for your changes.
-3. Make your modifications.
-4. Review your changes before submitting them.
-5. Provide a clear description of what you changed and why.
-6. Submit a Pull Request for review.
+3. Make focused modifications.
+4. Review the diff before submitting.
+5. Check links, image paths, and Markdown rendering where relevant.
+6. Submit a Pull Request with a clear explanation and any useful evidence.
 
-Submitting a Pull Request does not guarantee that the proposed changes will be accepted.
+A Pull Request may be revised or declined after review.
 
-## Contribution Guidelines
+## Contribution and safety guidelines
 
-To help keep the project organized and safe:
-
-- Explain the purpose of your contribution.
+- Explain the purpose and scope of your contribution.
 - Search existing Issues before opening a new one.
-- Provide sources for technical, scientific, or environmental claims.
-- Be respectful and constructive in discussions.
-- Do not make major changes without prior discussion.
-- Do not upload passwords, API keys, access tokens, database credentials, or other secrets.
-- Do not upload personal or confidential information.
-- Do not submit third-party material without the necessary permissions.
-- Do not publish private implementation files, datasets, or technical configurations.
+- Be respectful, specific, and constructive.
+- Provide sources for technical, scientific, environmental, or regulatory claims.
+- Do not upload passwords, API keys, access tokens, database credentials, environment files, or other secrets.
+- Do not publish personal, confidential, or identifying information.
+- Do not upload private datasets, original annotation collections, model weights, checkpoints, or unpublished training configurations.
+- Do not submit third-party content without the necessary rights or permissions.
+- Avoid photographs that identify students or other people. Obtain appropriate permissions before collecting or sharing images from school environments.
 - Do not attempt to access or modify external services, accounts, or infrastructure connected to the project.
+- Do not present proposed features, planned tests, or potential partnerships as completed or confirmed.
 
-## Project Status
+If you discover a security or privacy issue, do not publish secrets or exploit details in a public Issue. Report the concern without including sensitive information and contact the project maintainers through an appropriate private channel if one is provided.
 
-BINNSIE is an evolving experimental project.
+## Project status and review
 
-Its components are at different stages of development. Some have been implemented in prototypes, while others are still being tested, refined, or planned.
+BINNSIE is an evolving experimental project. Its components are at different stages: the physical station has been prototyped, the AI model has undergone preliminary Raspberry Pi 5 testing, the application remains an experimental separate prototype, and full system integration and school validation remain development goals.
 
-Contributions will be reviewed according to their relevance, feasibility, safety, and consistency with the project's objectives.
+Contributions are reviewed according to relevance, feasibility, safety, evidence, and consistency with the project's objectives. Public availability of this repository does not mean every internal component or implementation is open for modification.
 
-## Intellectual Property and Submitted Contributions
+## Intellectual property and submitted contributions
 
-Before submitting material, make sure you have the right to share it.
+Before submitting material, make sure you have the right to share it. Do not submit confidential, proprietary, or restricted information belonging to another person or organization.
 
-Do not submit confidential, proprietary, or restricted information belonging to another person or organization.
+The licensing and reuse conditions for BINNSIE's different components have not yet been fully defined. Do not assume that public access to this repository grants permission to reproduce, distribute, or commercially use every part of the project.
 
-The licensing and reuse conditions for BINNSIE's different components have not yet been fully defined. Please do not assume that the public availability of this repository grants permission to reproduce, distribute, or commercially use every part of the project.
+If you are unsure whether material can be included, discuss it with the project maintainers before submitting it.
 
-If you have questions about the conditions under which a contribution may be incorporated, please discuss them with the project maintainers before submitting them.
+## Questions
 
-## Questions and Contact
+For questions, suggestions, or proposed contributions, open an Issue in this repository.
 
-If you have questions, suggestions, or want to discuss a possible contribution, open an Issue in this repository.
-
-Thank you for your interest in BINNSIE!
-
-Every contribution, whether technical, educational, or practical, can help improve the project.
+Thank you for helping improve BINNSIE. Technical, educational, environmental, and practical contributions are all valuable.
 
 **BINNSIE**
 
