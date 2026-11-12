@@ -1,5 +1,12 @@
-# BINNSIE
-### The bin sorts, the student learns.
+<p align="center">
+  <img src="assets/binnsie-mascot.png" width="180" alt="BINNSIE mascot">
+</p>
+
+<h1 align="center">BINNSIE</h1>
+
+<p align="center">
+  <strong>The bin sorts, the student learns.</strong>
+</p>
 
 <p align="center">
   <em>An educational smart recycling ecosystem combining engineering, artificial intelligence, and environmental education.</em>
@@ -31,7 +38,13 @@ BINNSIE aims to address these challenges through an educational and technology-b
 
 BINNSIE combines five main areas:
 
-### 1. Physical Engineering
+### 1. Physical Engineering 
+
+<p align="center">
+   <img src="assets/binnsie-internals.jpeg" width="20%" alt="Internal electronics and hardware components of BINNSIE">
+  <img src="assets/binnsie-front.jpeg" width="20%" alt="Front view of the BINNSIE prototype">
+  <img src="assets/binnsie-overview.jpeg" width="20%" alt="Overview of the BINNSIE prototype">
+</p>
 
 An intelligent recycling station designed to receive waste and direct materials into designated compartments through a mechanical sorting system.
 
@@ -50,8 +63,12 @@ The current model works with three material classes:
 The AI development process includes image collection, dataset preparation, model training, and performance evaluation.
 
 ### 3. Digital Application
+<p align="center">
+   <img src="assets/binnsie-app-dashboard.png" width="60%" alt="App">
+</p>
 
 A web application prototype developed with Lovable and Supabase.
+link: https://orbyteens.lovable.app/
 
 It explores features such as:
 
