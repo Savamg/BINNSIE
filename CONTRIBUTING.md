@@ -145,6 +145,20 @@ For an approved contribution:
 
 A Pull Request may be revised or declined after review.
 
+### Self-review checklist
+
+Before merging a Pull Request, review the proposed changes as if you were maintaining the project:
+
+- [ ] The title clearly describes the change.
+- [ ] The description explains what changed and why it is useful.
+- [ ] Only the intended files were modified.
+- [ ] No passwords, API keys, personal data, or restricted project files were included.
+- [ ] Links, images, and Markdown formatting work as expected.
+- [ ] The change does not describe planned features or tests as completed.
+- [ ] The final diff matches the purpose of the Pull Request.
+
+For individual contributions, this checklist can be completed as a self-review. A second contributor is not required for the review process.
+
 ## Contribution and safety guidelines
 
 - Explain the purpose and scope of your contribution.
